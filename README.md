@@ -4,14 +4,14 @@ TMS_SEAL adalah sebuah aplikasi manajemen tugas sederhana yang menggunakan API u
 
 PERSYARATAN
 
-PHP 7.4 atau lebih baru
-Composer (untuk mengelola dependensi)
+PHP 7.4 atau lebih baru, 
+Composer (untuk mengelola dependensi), 
 MySQL atau database lain yang didukung PDO
 
 INSTALASI
 
 Clone repositori ini:
-git clone https://github.com/username/TMS_SEAL.git
+git clone https://github.com/username/TMS_SEAL.git ->
 cd TMS_SEAL
 
 Instal dependensi menggunakan Composer:
@@ -31,7 +31,7 @@ $pass = "";
 MENJALANKAN SERVER
 
 Untuk menjalankan server lokal, gunakan perintah berikut:
-php -S localhost:8000
+php -S localhost:8000, 
 Server ini akan berjalan pada port 8000. Anda dapat mengakses API melalui URL http://localhost:8000.
 
 STRUKTUR URL API
